@@ -1,6 +1,6 @@
 package Bundle::Starlink::Base;
 use strict;
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 1;
 
@@ -17,6 +17,12 @@ Starlink Perl modules.
 
 =head1 CONTENTS
 
+ExtUtils::MakeMaker
+
+Getopt::Long
+
+IO::File
+
 Proc::Simple
 
 Tk
@@ -31,6 +37,10 @@ IO::Tee
 
 LWP::Simple
 
+Math::Trig
+
+Pod::Usage
+
 Tk::TextANSIColor
 
 SOAP::Lite
@@ -42,6 +52,30 @@ Statistics::Descriptive::Discrete
 File::SearchPath
 
 Number::Uncertainty
+
+Term::ANSIColor
+
+Text::Balanced
+
+Time::HiRes
+
+Time::Local
+
+Tk::FileDialog
+
+Tk::Pod
+
+Tk::TextANSIColor
+
+Time::Piece
+
+Tk::Zinc
+
+File::SearchPath
+
+Statistics::Descriptive
+
+Date::Manip
 
 Astro::SLA
 
